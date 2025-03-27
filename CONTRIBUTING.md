@@ -5,21 +5,19 @@ Self-promotion is frowned upon, so please consider seriously whether your projec
 Also, please ensure your pull request adheres to the following guidelines:
 
 - Add one link per Pull Request.
-Make sure the PR title is in the format of Add project-name.
-- Add new branch with name as `contributing`.
-- Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.
+- Add new branch.
+- Search previous Pull Request or Issues before making a new one.
 - Enter a meaningfull pull request description.
 - Please make an individual commit for each suggestion in a separate pull request.
 - Check your spelling & grammar.
-- Remove any trailing whitespace.
-- New categories, or improvements to the existing categorisation, are always welcome.
+- New categories, or improvements to the existing categorisation are always welcome.
 - Add Your entry at the bottom within the category.
 
 ## Steps of contribution
 
 Contributions to this repository are welcome! please follow these steps:
 
-1. Fork the repository and clone it to your local machine.
+1. Fork the repository and clone it.
 
 2. Create a new branch for your contribution:
 
