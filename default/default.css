@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+   --primary-color: oklch(0.541 0.281 293.009);
+   --secondary-color: oklch(0.606 0.25 292.717);
+}
+
+body, html {
+   font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.default-uwdr-notify {
+   height: 100%;
+   background-color: var(--primary-color);
+   color: white;
+   padding: 0.7rem;
+}
+
+.default-uwdr-notify a {
+   color: white;
+}
