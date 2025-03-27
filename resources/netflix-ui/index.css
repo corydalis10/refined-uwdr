@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
-    /* font-family: 'Netflix Sans','Helvetica Neue','Segoe UI',Roboto,Ubuntu,sans-serif; */
-    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-body{
+
+body {
     color: #fff;
     background-color: #000;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/header-image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-image.png);
     background-position: center;
     background-size: cover;
     padding: 10px 8%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
-.Logo{
+
+.Logo {
     width: 150px;
     cursor: pointer;
 }
-nav button{
+
+nav button {
     border: 0;
     outline: 0;
     background-color: #db0001;
@@ -43,7 +43,7 @@ nav button{
     cursor: pointer;
 }
 
-.langs-btn{
+.langs-btn {
     /* display: inline-flex; */
     color: #fff;
     align-items: center;
@@ -53,34 +53,39 @@ nav button{
     border: 0.2px solid gray;
     padding: 7px 10px;
 }
-.langs-btn .lang-icon{
+
+.langs-btn .lang-icon {
     width: 10px;
 }
 
-.head-content{
+.head-content {
     position: absolute;
-    top: 50%;    
-    left: 50%;  
-    transform: translate(-50%, -50%);  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 70px;
     max-width: 100%;
 }
-.head-content h1{
+
+.head-content h1 {
     font-size: 3rem;
     line-height: 70px;
     font-weight: 900;
     max-width: 1000px;
 }
-.head-content h3{
+
+.head-content h3 {
     font-size: 1.5rem;
     font-weight: 300;
     margin-bottom: 20px;
 }
-.head-content p{
+
+.head-content p {
     font-size: 1.25rem;
 }
-.email-sign{
+
+.email-sign {
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -91,7 +96,7 @@ nav button{
     /* overflow: hidden;/ */
 }
 
-.email-sign input{
+.email-sign input {
     /* flex:1; */
     border: 0;
     outline: 0;
@@ -104,7 +109,8 @@ nav button{
     border-radius: 5px;
     /* font-weight: bold; */
 }
-.email-sign button{
+
+.email-sign button {
     border: 0;
     font-weight: 500;
     outline: 0;
@@ -118,11 +124,12 @@ nav button{
 }
 
 /* features/ */
-.features{
+.features {
     padding: 10px 8%;
-    font-size: 22px;    
+    font-size: 22px;
 }
-.row{
+
+.row {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -130,54 +137,58 @@ nav button{
     flex-wrap: wrap;
     padding: 50px 0;
 }
-.text-col, .img-col{
+
+.text-col,
+.img-col {
     flex-basis: 50%;
     margin-bottom: 20px;
 }
 
-.img-col img{ 
+.img-col img {
     display: block;
     width: 90%;
     margin: auto;
 }
-hr{
+
+hr {
     height: 7px;
     border: none;
     background-color: rgb(53, 53, 53);
 }
-.features h2{
+
+.features h2 {
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
-.rev{
+.rev {
     flex-direction: row-reverse;
 }
 
-.faq{
+.faq {
     padding: 10px 12%;
     text-align: center;
     font-size: 25px;
     margin: 40px 0 -5px 0;
 }
 
-.faq h2{
+.faq h2 {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.accordian{
+.accordian {
     margin: 60px auto;
     width: 100%;
     max-width: 750px;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-ul li label{
+ul li label {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -188,22 +199,25 @@ ul li label{
     cursor: pointer;
     position: relative;
 }
-label:hover{
+
+label:hover {
     background-color: #4b4b4b;
     transition: 0.3s ease-in-out;
 }
 
-label::after{
+label::after {
     content: '+';
     font-size: 34px;
     position: absolute;
     right: 20px;
     transition: 0.3s ease-in-out;
 }
-input[type="radio"]{
+
+input[type="radio"] {
     display: none;
 }
-.content{
+
+.content {
     background-color: #363636;
     text-align: left;
     padding: 0 20px;
@@ -213,114 +227,134 @@ input[type="radio"]{
     /* font-size: 20px; */
 }
 
-.freq-hr{
+.freq-hr {
     height: 5px;
     border: none;
     background-color: black;
 }
 
-.faq input[type="radio"]:checked + label + .content{
+.faq input[type="radio"]:checked+label+.content {
     max-height: 600px;
     padding: 30px;
 }
-.faq input[type="radio"]:checked + label::after{
+
+.faq input[type="radio"]:checked+label::after {
     transform: rotate(135deg);
 }
+
 /* .faq input[type="radio"]:checked + label + label::after{
     /* transform: rotate(135deg); */
-ul{
+ul {
     margin-bottom: 40px;
 }
-.faq .email-sign{
+
+.faq .email-sign {
     max-width: 600px;
     margin: 20px auto 60px;
 }
 
 
-.footer{
+.footer {
     margin: 50px 0;
     padding: 15px 10% 10px;
     /* border-top: 6px solid #333; */
     color: #9b9b9b;
 }
 
-.footer .row{
+.footer .row {
     padding: 30px 0;
 }
-.footer h2{
+
+.footer h2 {
     font-size: 18px;
     font-weight: 400;
 }
 
-.footer .col{
+.footer .col {
     flex-basis: 25%;
     /* margin-bottom: 10px; */
     flex-grow: 1;
 }
-.footer .col a{
+
+.footer .col a {
     display: block;
     margin-bottom: 10px;
     color: #9b9b9b;
 }
 
-.copy{
+.copy {
     color: #9b9b9b;
     margin-top: 20px;
 }
 
 /* -------media queries -------- */
-@media only screen and (max-width : 862px){
-    .Logo{
+@media only screen and (max-width : 862px) {
+    .Logo {
         width: 100px;
     }
-    nav button{
+
+    nav button {
         padding: 5px 10px;
     }
-    .head-content h1{
+
+    .head-content h1 {
         font-size: 2rem;
         line-height: 40px;
         /* font-weight: 900; */
         margin-top: 10px;
         max-width: 900px;
     }
-    .email-sign{
+
+    .email-sign {
         flex-direction: column;
         gap: 30px;
     }
-    .email-sign button{
+
+    .email-sign button {
         padding: 10px;
         font-size: 22px;
     }
-    .email-sign input{
+
+    .email-sign input {
         padding: 12px;
         width: 20rem;
     }
-    .head-content{
+
+    .head-content {
         margin-top: 16px;
     }
-    .head-content h3,.head-content p{
+
+    .head-content h3,
+    .head-content p {
         margin-top: 10px;
         font-size: 20px;
     }
-    .features .row{
+
+    .features .row {
         flex-direction: column;
     }
-    .features p{
+
+    .features p {
         font-size: 20px;
     }
-    .features h2{
+
+    .features h2 {
         font-size: 41px;
     }
+
     ul li label {
         font-size: 18px;
     }
+
     .faq {
         font-size: 17px;
     }
-    label::after{
+
+    label::after {
         font-size: 19px;
     }
-    nav button{
+
+    nav button {
         font-size: 12px;
     }
 }
