@@ -1,20 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&family=Cinzel:wght@900&family=Lato:wght@700&family=Open+Sans:wght@500;600&family=Roboto+Mono:wght@300&display=swap');
-
 html,
 body {
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .hding {
   text-align: center;
-  font-family: cursive;
-  color:#6b6bff;
-}
-
-body {
-  margin: 25px;
-  padding: 25px;
-  background-color:black;
 }
 
 .container {
@@ -38,14 +29,13 @@ body {
   border: 2px solid white;
   font-size: 1rem;
   cursor: pointer;
-  
+
 
 }
 
 .row {
   /* height: 50vh;
   width:656px;  */
-  padding: 50px 0px 0px 0px;
   background-image: url("cbg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
